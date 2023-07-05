@@ -1,8 +1,9 @@
 import { listItems } from "./constants";
+import "./header.css";
 
 export function Header() {
   return (
-    <header>
+    <header className="header">
       <h1>Fullmetal Alchemist</h1>
       <nav>
         {listItems.map((word) => (
